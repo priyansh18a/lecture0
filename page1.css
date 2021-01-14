@@ -1,0 +1,62 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.container-fluid{
+    background: url(img/backimg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   padding-bottom: 580px;
+   
+}
+
+.title{
+    font-size: 60px;
+    color: rgb(239, 255, 7);
+    font-weight: bold;
+
+
+} 
+@media (max-width: 576px){
+.container-fluid{
+    padding-bottom: 420px;
+}
+}
+.form-signin{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.page1-1{
+    
+  top: 50%;
+ 
+  transform: translateY(60%);
+
+}
+div label{
+    font-size: 17px;
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+p.sign-up {
+    margin-top: 10px;
+    color: blanchedalmond;
+    font-size: 20px;
+    text-decoration: none;
+}
+div a:hover{
+    color: brown;
+    text-decoration: none;
+}
+div a{
+    font-weight: bold;
+}

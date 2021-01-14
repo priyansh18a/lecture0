@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+%message {
+    margin-top: 10px;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+}
+div {
+    
+    font-size: 20px;
+    top: 50%;
+ 
+  transform: translateY(50%);
+ 
+}
+@media(max-width: 576px){
+    .container-1{
+        top: 0%;
+        transform: translateY(0%);
+    }
+    }
+@media (min-width: 1200px){
+    .container-1 {
+        max-width: 1140px;
+    }
+}
+container-1{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    back {
+        @extend %message;
+    }
+    div a:hover{
+        color: brown;
+        text-decoration: none;
+    }
+    div a{
+        font-weight: bold;
+    }
+    back-1{
+        @extend %message;
+        margin-top: 10px;
+    }

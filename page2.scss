@@ -1,0 +1,47 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+div {
+    
+    font-size: 20px;
+    top: 50%;
+ 
+  transform: translateY(50%);
+    a {
+       
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+
+    p {
+        color:grey;
+        margin-top: 10px;
+      
+    }
+
+    ul {
+        li {
+            color:brown !important;
+        }
+        }
+       
+}
+@media(max-width: 576px){
+    .container{
+        top: 0%;
+        transform: translateY(0%);
+    }
+    }
+    back-1{
+        margin-top: 10px;
+        color:black;
+        font-size: 20px;
+        text-decoration: none;
+        content: none !important;
+        margin-top: 10px;
+    }

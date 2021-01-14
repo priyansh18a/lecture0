@@ -1,0 +1,37 @@
+.page-4 {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.page-4 {
+  padding-left: 30%;
+  padding-right: 30%;
+  background-image: url(img/backimg2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  overflow: hidden;
+  padding-top: 220px;
+  padding-bottom: 350px; }
+
+@media (max-width: 576px) {
+  .page-4 {
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 30px;
+    padding-bottom: 60px; } }
+p.sign-in {
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+  text-decoration: none; }
+
+div a:hover {
+  color: brown;
+  text-decoration: none; }
+
+div a {
+  font-weight: bold; }
+
+/*# sourceMappingURL=page4.css.map */
